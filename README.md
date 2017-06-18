@@ -178,3 +178,22 @@ Besides the three strategy patterns. I've also implemented the following items:
 
 ### UML
 ![RunnerX UML](https://github.com/ohsnapitskenny/RunnerX/blob/master/RunnerX.jpg)
+
+### Peer review week 7
+- Klasse diagram: Vereiste onderdelen zijn behandeld en worden weergegeven in het UML diagram. Verbinding tussen verschillende elementen en onderdelen zijn juist aangegeven.
+- Encapsulation: Correct toegepast. Instanties kunnen alleen eigen waarden aanpassen. Gameobject heeft protected waarden die met Getters en Setters opgehaald kunnen worden.
+- Singleton: Singleton principe toegepast in de game. De game gebruikt dit principe om te controleren op een instantie van Game.
+- Observers: Correct toegepast. De obstacle instanties ‘luisteren’ naar de player instantie.
+- Strategy patterns: Gebruikt in behaviours. Dit zijn ‘crashed’ en ‘driving’.
+- Interfaces: Behavior is een interface voor de classes ‘crashed’ en ‘driving’. Ook de observer en observable zijn verwerkt als interfaces.
+- Static: Static functies zijn toegepast in het ‘utils’ bestand. Die functies zijn gebruikt voor collision detection en om random integers te genereren.
+- Namespaces: Utils is verwerkt als namespace. Deze bevat twee export classes; Game en Numbers.
+- Enumerations: Enumerations zijn toegepast in de Driving class. Daarin wordt het principe gebruikt voor de key presses van de controls van het spel (Up en Down).
+- Library: Howler.js. Deze library wordt gebruikt om geluidsfragmenten af te spelen. Dit wordt gebruikt wanneer de speler ‘crasht’. Er speelt dan een fragmentje af om aan te geven dat de speler gecrasht is.
+- Gameloop: Dit wordt aangeroepen in de game file. Hierin wordt door een move functie aangeroepen voor de player class waardoor het spel start. Hier in wordt ook de game status gecheckt (game over: true of false).
+
+Alle vereiste onderdelen zijn verwerkt in het project. Duidelijke code ondersteund door comments die de werking van onderdelen beschrijven. 
+Read me file op Github is ook duidelijk uitgewerkt met uitleg over de vereiste principes. 
+Netjes gebruikt gemaakt van get en set functies. 
+De mappenstructuur is ook erg netjes en duidelijk verwerkt. 
+Ik kon even geen punten vinden die ik zou aanpassen. Lekker gewerkt! 
